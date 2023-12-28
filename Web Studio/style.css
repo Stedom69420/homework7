@@ -1,0 +1,102 @@
+:root {
+--header-background: #FFFFFF;
+--header-item: #212121;
+--section-effective-solutions: #2F303A;
+--effective-solutions-title: #FFFFFF;
+--effective-solutions-button-background: #2196F3;
+--effective-solutions-button-text: #FFFFFF;
+--descriptions-background: #FFF;
+--description-title: #212121;
+--description-text: #757575;
+--section-what-we-do-background: #FFF;
+--what-we-do-title: #212121;
+--section-team-background: #F5F4FA;
+--team-title: #212121;
+--team-text-name: #212121;
+--team-text-job: #757575;
+--footer-background: #2F303A;
+--footer-text-adress: #FFFFFF;
+--footer-link: #FFFFFF99;
+}
+ul {
+    color: white;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header-link {
+    font-weight: 500;
+    line-height: 117%;
+    color: var(--header-item);
+}
+.header-link:hover {
+    color:blue;
+}
+.section-effective-solutions{
+    background-color: var(--section-effective-solutions);
+    padding: 200px 0px;
+}
+.effective-solutions-title {
+    font-weight: 900;
+    line-height: 136%;
+    color: var(--effective-solutions-title)
+}
+.effective-solutions-button {
+    background-color: var(--effective-solutions-button-background);
+    color: var(--effective-solutions-button-text);
+    font-weight: 700;
+    line-height: 187%;
+}
+.section-description {
+    background-color: var(--descriptions-background);
+}
+h3.description-title {
+    color: var(--description-title);
+    font-weight: 700;
+    line-height: 114%;
+}
+p.description-text {
+    color: var(--description-text);
+    font-weight: 400;
+    line-height: 171%;
+}
+.section-what-we-do {
+    background-color: var(--section-what-we-do-background);
+}
+.what-we-do-title {
+    line-height: 116%;
+    color: var(--what-we-do-title);
+}
+.section-team {
+    background-color: var(--section-team-background);
+}
+h1.team-title {
+    color: var(--team-title);
+    line-height: 116%;
+}
+.team-text-name {
+    font-weight: 500;
+    color: var(--team-text-name);
+    line-height: 118%;
+}
+.team-text-job {
+    font-weight: 400;
+    color: var(--team-text-job);
+    line-height: 118%;
+}
+.footer {
+    background-color: var(--footer-background);
+}
+.footer-text-adress {
+    color: var(--footer-text-adress);
+    line-height: 171%;
+    font-weight: 400;
+}
+.footer-link {
+    color: var(--footer-link);
+    font-weight: 400;
+    line-height: 171%;
+}
+footer-link:hover {
+    color: blue;
+}
